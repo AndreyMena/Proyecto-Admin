@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{1F1B918E-2EAF-4080-9A12-D15E63E61EF3}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdmDatabase", "AdmDatabase\AdmDatabase.sqlproj", "{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{1F1B918E-2EAF-4080-9A12-D15E63E61EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1B918E-2EAF-4080-9A12-D15E63E61EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F1B918E-2EAF-4080-9A12-D15E63E61EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D823FE6-1F02-4FE9-A77F-4C4B12AFD102}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
